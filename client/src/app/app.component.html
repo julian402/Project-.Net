@@ -1,2 +1,9 @@
 <app-header></app-header>
-<h1 class="bg-blue-500 text-white p-4">Welcome to {{title}}</h1>
+<div class="container mt-6">
+    <h2 class="text-3xl font-bold underline">Welcome to {{title}}</h2>
+    <ul>
+        @for( product of products; track product.id){
+            <li>{{product.name}}</li>
+        }
+    </ul>
+</div>

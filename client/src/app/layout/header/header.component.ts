@@ -5,6 +5,7 @@ import { MatBadge } from '@angular/material/badge';
 
 @Component({
     selector: 'app-header',
+    standalone: true,
     imports: [
         MatIcon,
         MatButton,
