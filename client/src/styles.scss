@@ -11,3 +11,7 @@
     disabled-state-background-color: red,
   ));
 }
+
+.match-input-height{
+  height: var(--mat-form-field-container-height) !important;
+}
