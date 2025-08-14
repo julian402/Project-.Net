@@ -12,6 +12,15 @@
   ));
 }
 
-.match-input-height{
+button.match-input-height{
   height: var(--mat-form-field-container-height) !important;
+}
+
+.mdc-notched-outline__notch{
+  border-right-style: none !important;
+}
+
+button.match-input-height {
+  height: 56px !important; 
+  min-height: 56px !important;
 }
