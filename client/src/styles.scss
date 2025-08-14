@@ -24,3 +24,19 @@ button.match-input-height {
   height: 56px !important; 
   min-height: 56px !important;
 }
+
+.snack-error{
+  @include mat.snack-bar-overrides((
+    button-color: white,
+    container-color: rgb(255, 68, 68),
+    supporting-text-color: white
+  ));
+}
+
+.snack-success{
+  @include mat.snack-bar-overrides((
+    button-color: white,
+    container-color: green,
+    supporting-text-color: white
+  ));
+}
